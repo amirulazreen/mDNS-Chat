@@ -20,7 +20,6 @@ func handleStream(stream network.Stream, host host.Host) {
 }
 
 func readData(rw *bufio.ReadWriter, host host.Host) {
-	currentTime := time.Now().Format("2006-01-02 15:04:05")
 	for {
 		str, err := rw.ReadString('\n')
 		if err != nil {
@@ -29,6 +28,7 @@ func readData(rw *bufio.ReadWriter, host host.Host) {
 		}
 
 		if str != "\n" {
+			currentTime := time.Now().Format("2006-01-02 15:04:05")
 			fmt.Printf("%s\n", currentTime)
 			fmt.Printf("From ID : %s\n", host.ID())
 			fmt.Printf("\x1b[32m%s\x1b[0m> ", str)
