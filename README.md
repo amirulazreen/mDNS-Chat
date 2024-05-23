@@ -14,7 +14,7 @@
 </div>
 
 <div>
-    <h3>Intruction</h3>
+    <h3>Instruction</h3>
     <p>run go build command then ./MDNS -port [number] in console and another port in different console </p>
 </div>
     
