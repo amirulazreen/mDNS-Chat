@@ -9,7 +9,7 @@
     <ul>
         <li>Announce host node availability </li>
         <li>Search and connect to another available node</li>
-        <li>Send & receives encrypted messages</li>
+        <li>Send & receives messages</li>
     </ul>
 </div>
 
