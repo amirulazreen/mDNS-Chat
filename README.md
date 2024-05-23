@@ -2,7 +2,7 @@
 <html>
 <body>
     <h2>mDNS-Chat</h2>
-    <p>P2P chat using Golang libP2P library with encryption</p>
+    <p>P2P mDNS chat using Golang libP2P library with encryption</p>
 
 <div>
     <h3>What can it do?</h3>
